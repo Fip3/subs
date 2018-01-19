@@ -1,0 +1,43 @@
+body {
+	background: #ffc800;
+}
+
+.social-menu {
+	display: flex;
+	margin: 2px;
+	height: 100%;
+	flex-direction: column;
+	border: solid blue 3px;
+	align-items: center;
+}
+
+h2 {
+	border: solid red 1px;
+	margin: 2px;
+}
+
+@media (min-width: 550px) {
+  .social-menu {
+    flex-direction: row;
+	}
+
+	#div-menu {
+		width: 100%;
+	}
+}
+
+@media (min-width: 768px) {
+  .social-menu {
+    flex-direction: column;
+	}
+}
+
+.social-btn {
+	display:flex;
+	flex: auto;
+	align-items: center;
+	border: solid green 2px;
+	margin: 2px;
+	justify-content: space-around;
+}
+
